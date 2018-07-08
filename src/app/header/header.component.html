@@ -1,0 +1,49 @@
+<header class="h-100 blac" >
+    <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark pink lighten-4 scrolling-navbar intro-fixed-nav" [containerInside]="false">
+      
+      <logo >
+        
+          <a class="logo navbar-brand " >
+              MindTravels
+             </a>
+        </logo>
+      <links>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active waves-light m-l" mdbWavesEffect>
+            <a (click)="getState('Home')" [ngClass]="(act === 'Home')? 'nav-link blac b-btm' :'nav-link blac'" routerLink="/home">Home
+              
+            </a>
+          </li>
+          <li class="nav-item waves-light m-l" routerLink="/explore" mdbWavesEffect>
+            <a (click)="getState('Explore')" [ngClass]="(act === 'Explore')? 'nav-link blac b-btm' :'nav-link blac'">Explore</a>
+          </li>
+          <li class="nav-item waves-light m-l" routerLink="/places" mdbWavesEffect>
+            <a (click)="getState('Places')" [ngClass]="(act === 'Places')? 'nav-link blac b-btm' :'nav-link blac'">Places</a>
+          </li>
+          <li class="nav-item waves-light m-l" routerLink="/contactus" mdbWavesEffect>
+            <a (click)="getState('Contact')" [ngClass]="(act === 'Contact')? 'nav-link blac b-btm' :'nav-link blac'">Contact Us</a>
+          </li>
+        </ul>
+      </links>
+      
+      
+    </mdb-navbar>
+    <!-- Main -->
+    <div class="view intro-2" >
+      <div class="full-bg-img">
+        <div class="mask rgba-purple-light flex-center">
+          <div class="container text-center white-text wow fadeInUp">
+             
+          
+            </div>
+        </div>
+      </div>
+    </div>
+  
+   
+    <!-- /.Main -->
+  </header>
+  
+  
+  
+  
