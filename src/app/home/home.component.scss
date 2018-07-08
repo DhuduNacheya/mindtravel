@@ -1,0 +1,53 @@
+.view {
+    background: url("/assets/card2.jpg")no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.navbar {
+    background-color: transparent;
+    opacity: 4;
+    z-index: 100;
+}
+
+.bcColor{
+    background:linear-gradient(pink,white)
+}
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+
+
+.view1 {
+   
+    background-image: url("/assets/main.JPG");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.view2 {
+   
+    background-image: url("/assets/card4.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

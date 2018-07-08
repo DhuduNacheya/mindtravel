@@ -1,0 +1,67 @@
+.view {
+   
+    background-image: url("/assets/cnahan.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bcColor{
+    background:linear-gradient(pink,white)
+}
+.navbar {
+    overflow: hidden;
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: black !important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Dancing Script
+  }
+
+  .navbar a:hover {
+    
+    color:black;
+    -ms-transform: scale(1.3, 1.3); /* IE 9 */
+    -webkit-transform: scale(1.3, 1.3); /* Safari */
+    transform: scale(1.3, 1.3);
+  }
+ 
+ 
+.blac{
+    color:black;
+}
+
+.b-btm{
+border-bottom:2px solid white;
+}
+
+.m-l{
+    margin-left:20px;
+}
+
+.m-l:hover{
+    -ms-transform: scale(1.3, 1.3); /* IE 9 */
+    -webkit-transform: scale(1.3, 1.3); /* Safari */
+    transform: scale(1.3, 1.3);
+}
+
+.m-l-5{
+    margin-left:5px;
+}

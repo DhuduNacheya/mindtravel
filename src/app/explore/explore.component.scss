@@ -1,0 +1,39 @@
+.example-card {
+    max-width: 100%;
+    margin:20px;
+    border: 2px solid pink;
+    background: linear-gradient(pink,white);
+    font-family: 'Dancing Script';font-size: 16px;
+  }
+
+  .example-card:hover {
+    color: #1a2326;
+    text-decoration: none;
+    border-color: pink;
+    border-radius: 4px;
+    box-shadow: 0 8px 8px rgba(1,67,163,.24), 0 0 8px rgba(1,67,163,.12), 0 6px 18px rgba(43,133,231,.12);
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);}
+
+
+    .mat-chip.mat-standard-chip {
+      background-color: pink;
+      color: rgba(0,0,0,.87);
+      cursor: pointer;
+  }
+
+  .m-t-d{
+
+    margin-top:20px;
+    margin-left:20px;
+  }
+
+  .btn-clr{
+    font-size: 10px;
+    font-weight: bold;
+    color:black !important;
+    background:linear-gradient(pink,white);
+    border-radius: 25px;
+  }
+
+  
