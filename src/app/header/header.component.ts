@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 act:any='Home';
+overDis=false;
   constructor() { }
 
   ngOnInit() {
@@ -18,5 +19,10 @@ act:any='Home';
 
 this.act=value;
 
+  }
+
+
+  getOverlay(){
+    this.overDis=!this.overDis;
   }
 }

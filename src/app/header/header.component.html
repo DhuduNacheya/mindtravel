@@ -3,7 +3,7 @@
       
       <logo >
         
-          <a class="logo navbar-brand " >
+          <a class="logo navbar-brand animated bounceInRight " (click)="getOverlay();" >
               MindTravels
              </a>
         </logo>
@@ -46,4 +46,16 @@
   
   
   
+  <div id="myNav"[ngClass]="overDis?'overlayNxt':'overlay'">
+
+    
+    <a class="closebtn" (click)="getOverlay()">&times;</a>
   
+    
+    <div class="overlay-content">
+        <a href="#">Log in</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  
+  </div>

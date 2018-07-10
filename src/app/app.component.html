@@ -1,5 +1,19 @@
 
+<div class="icon-bar" (mouseleave)="getreallySocial(false);">
+    <a  class="hand" (mouseenter)="getreallySocial(true);" > <i class="fa fa-hand-spock-o" aria-hidden="true"></i></a>
+    <a href="#"  [ngClass]="getSocial?'facebook':'in'"><i class="fa fa-facebook"></i></a> 
+    <a href="#"   [ngClass]="getSocial?'twitter':'in'"><i class="fa fa-twitter"></i></a> 
+    <a href="#"   [ngClass]="getSocial?'google':'in'"><i class="fa fa-google"></i></a> 
+    <a href="#"   [ngClass]="getSocial?'linkedin':'in'"><i class="fa fa-linkedin"></i></a>
+    <a href="#"   [ngClass]="getSocial?'youtube':'in'"><i class="fa fa-youtube"></i></a> 
+  </div>
+  <div>
 <app-header></app-header>
 <router-outlet></router-outlet>
 
 <app-footer></app-footer>
+</div>
+
+
+  
+
