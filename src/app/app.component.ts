@@ -7,11 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  getSocial:boolean=true;
+  getSocial:boolean=false;
   title = 'app';
 
-  getreallySocial(){
+  getreallySocial(value:boolean){
 
-    this.getSocial=!this.getSocial;
+    this.getSocial=value;
   }
 }

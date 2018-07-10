@@ -22,9 +22,12 @@
 
 .hand{
   background: pink;
-  opacity:0.7;
-  color:gold;
+ 
+  color:white;
+  transition: 2s; 
 }
+
+
 
 .facebook {
   background: #3B5998;
@@ -49,4 +52,10 @@
 .youtube {
   background: #bb0000;
   color: white;
+}
+
+.in{
+  width:0px;
+  visibility:hidden;
+  transition: 2s; 
 }
